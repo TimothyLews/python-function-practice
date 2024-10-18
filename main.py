@@ -21,3 +21,12 @@ def rev_string(s):
 
 # Test the function
 print(rev_string("hello"))  # Output: "olleh"
+
+def numwithin(x, start, end):
+    # Checks if a number x falls within the range [start, end] (inclusive)
+    return start <= x <= end
+
+    # Test the function
+    print(numwithin(3, 2, 4))  # Output: True
+    print(numwithin(3, 1, 3))  # Output: True
+    print(numwithin(10, 2, 5))  # Output: False
