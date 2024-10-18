@@ -14,3 +14,10 @@ def mult_list(lst):
 
 # Test the function
 print(mult_list([2, 3, 4]))  # Output: 24
+
+def rev_string(s):
+    # Reverses the input string using slicing
+    return s[::-1]
+
+# Test the function
+print(rev_string("hello"))  # Output: "olleh"
